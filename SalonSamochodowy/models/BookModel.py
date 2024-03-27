@@ -23,3 +23,4 @@ class Book(models.Model):
     def reserve(self):
         self.available=False
         self.save()
+

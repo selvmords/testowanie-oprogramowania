@@ -35,3 +35,4 @@ urlpatterns = [
     path('car-list/', views.car_list, name='car_list'),
     path('book/<int:pk>/', BookDetailView.as_view(), name='book-detail'),
 ]
+
